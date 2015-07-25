@@ -1,6 +1,12 @@
 body{
 	background-color:#ffcccc;
 }
+h1{
+	font-size:30px;
+}
+h2{
+	font-size:30px;
+}
 .column{
   width:300px;
   margin:20px;
@@ -48,20 +54,21 @@ a:hover{
     width:1000px;
     margin: 0 auto;
 }
-.col3{
-    width:300px;
+.col2{
+    width:400px;
     margin: 15px;
     float:left;
     background-color:#ffcccc;
 }
-.col3 img{
-    width:300px;
+.col2 img{
+    width:400px;
     background-color:#ffcccc;
 }
-#col3_span3{
-  margin: 15px 0;
+#col2_span2{
+  margin: 30px 0;
 }
 footer{
 	background-color: #ffcccc;
 	font-family: "Helvetica Neue", sans-serif;
+	margin:auto;
 }
