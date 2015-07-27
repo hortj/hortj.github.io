@@ -18,20 +18,32 @@ body{
 	margin-top: auto;
 }
 nav{
-	background-color: #ffcccc;
-	font-family: "Helvetica Neue", sans-serif;
-	float:left;
+  background-color:#eee;
+  width:30px;
+  margin:100px auto;
+  padding:20px;
+  float:auto;
 }
-a{
-	background-color: #ffcccc;
-	color: #000000;
-	text-decoration: none;
-	display: block;
-	float:none;
-	padding:15px;
-  font-weight: 600;
-  float:left;
-  margin: 15px;
+a:link{
+  margin:20px;
+  text-decoration:none;
+  text-transform:uppercase;
+  font-family:"Helvetica Neue", sans-serif;
+  color:#47153D;
+}
+
+a:visited{
+  color:inherit;
+}
+
+a:hover{
+  color:#FFCCCC;
+  border-bottom:3px solid #FFCCCC;
+  padding:0 0 2px;
+}
+
+a:active{
+  color:#FA2719;
 }
 .clearfix: after{
 	visibility: hidden;
@@ -40,9 +52,6 @@ a{
 	clear: both;
 	height: 0;
 	font-size: 0;
-}
-a:hover{
-	background-color:#ffffcc;
 }
 .wrap{
     width:1000px;
@@ -60,8 +69,4 @@ a:hover{
 }
 #col3_span3{
   margin: 15px 0;
-}
-footer{
-	background-color: #ffcccc;
-	font-family: "Helvetica Neue", sans-serif;
 }
