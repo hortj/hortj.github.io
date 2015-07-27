@@ -45,7 +45,7 @@ a:hover{
 a:active{
   color:#FA2719;
 }
-.clearfix: after{
+.clearfix:after{
 	visibility: hidden;
 	display: block;
 	content:" ";
