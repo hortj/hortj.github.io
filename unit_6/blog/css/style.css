@@ -24,31 +24,36 @@ h2{
 	margin-top: auto;
 }
 nav{
-	background-color: #ffcccc;
-	font-family: "Helvetica Neue", sans-serif;
-	float:left;
+	background-color:#eee;
+  	width:30px;
+  	margin:100px auto;
+  	padding:20px;
+  	float:auto;
 }
-a{
-	background-color: #ffcccc;
-	color: #000000;
-	text-decoration: none;
-	display: block;
-	float:none;
-	padding:15px;
-  font-weight: 600;
-  float:left;
-  margin: 15px;
+a:link{
+  margin:20px;
+  text-decoration:none;
+  text-transform:uppercase;
+  font-family:"Helvetica Neue", sans-serif;
+  color:#47153D;
 }
-.clearfix: after{
+
+a:visited{
+  color:inherit;
+}
+
+a:hover{
+  color:#FFCCCC;
+  border-bottom:3px solid #FFCCCC;
+  padding:0 0 2px;
+}
+.clearfix:after{
 	visibility: hidden;
 	display: block;
 	content:" ";
 	clear: both;
 	height: 0;
 	font-size: 0;
-}
-a:hover{
-	background-color:#ffffcc;
 }
 .wrap{
     width:1000px;
@@ -67,8 +72,7 @@ a:hover{
 #col2_span2{
   margin: 30px 0;
 }
-footer{
-	background-color: #ffcccc;
-	font-family: "Helvetica Neue", sans-serif;
-	margin:auto;
+.foot{
+    width:1000px;
+    margin: 0px auto 20px;
 }
