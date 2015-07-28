@@ -1,5 +1,5 @@
 body{
-	background-color:#ffcccc;
+  background-color:#ffcccc;
 }
 .column{
   width:300px;
@@ -8,14 +8,15 @@ body{
   float:none;
 }
 #logo{
-	width:auto;
-	margin-left:275px;
+  width: 45%;
+  display: block;
+  margin:  0 auto;
 }
 #wrapper{
-	width:auto;
-	margin-left: auto;
-	margin-right:auto;
-	margin-top: auto;
+  width:auto;
+  margin-left: auto;
+  margin-right:auto;
+  margin-top: auto;
 }
 nav{
   background-color:#eee;
@@ -46,16 +47,16 @@ a:active{
   color:#FA2719;
 }
 .clearfix:after{
-	visibility: hidden;
-	display: block;
-	content:" ";
-	clear: both;
-	height: 0;
-	font-size: 0;
+  visibility: hidden;
+  display: block;
+  content:" ";
+  clear: both;
+  height: 0;
+  font-size: 0;
 }
 .wrap{
     width:1000px;
-    margin: 0 auto;
+    margin: 0px auto 20px;
 }
 .col3{
     width:300px;
@@ -69,4 +70,12 @@ a:active{
 }
 #col3_span3{
   margin: 15px 0;
+}
+
+#home img {
+  /* Will only apply to images on <body id="home"> */
+}
+
+#blog img {
+  /* Will only apply to images on <body id="blog"> */ 
 }
