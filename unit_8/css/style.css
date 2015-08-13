@@ -1,0 +1,103 @@
+h1{
+	text-align: center;
+}
+body{
+  background-color:#fcf0e5;
+  text-align:center;
+  color:#03084b;
+}
+
+p{
+  color:#03084b;
+}
+
+
+#logo{              
+  width: 45%;
+  display: block;
+  margin:  0 auto;
+}
+
+#bio{
+  width: 45%;
+  display: block;
+  margin:  0 auto; 
+}
+
+#wrapper{
+  width:auto;
+  margin-left: auto;
+  margin-right:auto;
+  margin-top: auto;   
+}
+
+nav{
+  background-color:#03084b;
+  width:30px;
+  margin:100px auto;
+  padding:20px;
+  float:auto;
+  font-size: 1em;
+  font-weight: 700px;
+}
+
+a:link{
+  margin:20px;
+  text-decoration:none;
+  text-transform:uppercase;
+  font-family:"Helvetica Neue Bold", sans-serif;
+  font-weight: 900px;
+  color:#7d130c;
+}
+
+a:visited{
+  color:#7d130c;
+}
+
+a:hover{
+  color:#7d130c;
+  border-bottom:3px solid #fcf0e5;
+  padding:0 0 2px;
+}
+
+a:active{
+  color:#7d130c;
+}
+
+.clearfix:after{
+  visibility: hidden;
+  display: block;
+  content:" ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+
+.wrap{
+    width:1000px;
+    margin: 0px auto 20px;
+}
+
+@media screen and (min-width: 800px){
+
+}
+  .wrap{
+    max-width:90%;
+}
+
+.foot{
+    width:1000px;
+    margin: 0px auto 20px;
+}
+
+#icons{
+  width: 25%;
+}
+
+#home img {
+  /* Will only apply to images on <body id="home"> */
+}
+
+#portfolio img {
+  /* Will only apply to images on <body id="blog"> */ 
+}
