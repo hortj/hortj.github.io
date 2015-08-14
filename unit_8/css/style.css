@@ -1,19 +1,17 @@
-h1{
-	text-align: center;
-}
+* { margin:0; padding:0; box-sizing:border-box; }
 body{
   background-color:#fcf0e5;
   text-align:center;
   color:#03084b;
 }
-
+h1{
+	text-align: center;
+}
 p{
   color:#03084b;
 }
-
-
 #logo{              
-  width: 45%;
+  width: 300px;
   display: block;
   margin:  0 auto;
 }
@@ -22,12 +20,20 @@ p{
   float:right;
 }
 
-#about{
-  width: 60%;
-  display: block;
+#about > div {
+  max-width:1200px;
   margin:  0 auto;
 }
-
+#about div div {
+	float:left;
+	padding:1em;
+	width:50%;
+}
+#about img {
+	float:left;
+	padding:1em;
+	width:50%;
+}
 #work{
   width: 60%;
   display: block;
@@ -49,12 +55,9 @@ p{
 
 nav{
   background-color:#03084b;
-  width:30px;
-  margin:100px auto;
   padding:20px;
-  float:auto;
   font-size: 1em;
-  font-weight: 700px;
+  font-weight: 700;
 }
 
 a:link{
@@ -62,7 +65,7 @@ a:link{
   text-decoration:none;
   text-transform:uppercase;
   font-family:"Helvetica Neue Bold", sans-serif;
-  font-weight: 900px;
+  font-weight: 900;
   color:#7d130c;
 }
 
@@ -89,31 +92,25 @@ a:active{
   font-size: 0;
 }
 
-.wrap{
-    width:1000px;
-    margin: 0px auto 20px;
-}
-
 li{
    list-style-type: none; text-align: center;
  }
 
 @media screen and (min-width: 800px){
-
-}
-  .wrap{
-    max-width:90%;
-}
-
-.foot{
-    width:1000px;
-    margin: 0px auto 20px;
-}
-
-.socialclearfix{
-  list-style-type: none; text-align: center;
-}
-
-.container{
-  color:#7d130c;
+	.wrap{
+	    max-width:90%;
+	}
+	
+	.foot{
+	    width:1000px;
+	    margin: 0px auto 20px;
+	}
+	
+	.socialclearfix{
+	  list-style-type: none; text-align: center;
+	}
+	
+	.container{
+	  color:#7d130c;
+	}
 }
