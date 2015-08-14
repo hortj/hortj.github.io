@@ -18,10 +18,26 @@ p{
   margin:  0 auto;
 }
 
-#bio{
-  width: 45%;
+#portrait{
+  float:right;
+}
+
+#about{
+  width: 60%;
+  display: block;
+  margin:  0 auto;
+}
+
+#work{
+  width: 60%;
   display: block;
   margin:  0 auto; 
+}
+
+#contact{
+  width: 60%;
+  display: block;
+  margin:  0 auto;
 }
 
 #wrapper{
@@ -90,14 +106,6 @@ a:active{
     margin: 0px auto 20px;
 }
 
-#icons{
-  width: 25%;
-}
-
-#home img {
-  /* Will only apply to images on <body id="home"> */
-}
-
-#portfolio img {
-  /* Will only apply to images on <body id="blog"> */ 
+.container{
+  color:#7d130c;
 }
