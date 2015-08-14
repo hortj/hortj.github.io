@@ -94,6 +94,10 @@ a:active{
     margin: 0px auto 20px;
 }
 
+li{
+   list-style-type: none; text-align: center;
+ }
+
 @media screen and (min-width: 800px){
 
 }
@@ -104,6 +108,10 @@ a:active{
 .foot{
     width:1000px;
     margin: 0px auto 20px;
+}
+
+.socialclearfix{
+  list-style-type: none; text-align: center;
 }
 
 .container{
