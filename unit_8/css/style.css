@@ -7,7 +7,7 @@ body{
 }
 
 nav{
-  background-color:#03084b;
+  background-color:#7d130c;
   padding:20px;
   font-size: 1em;
   font-weight: 700;
@@ -22,11 +22,24 @@ div{
 }
 
 h1{
+  font-family:'Trajan Pro', serif;
+  color:#7d130c;
   text-align: center;
 }
-p{
+
+p1{
+  font-family:'Helvetica Neue', sans-serif;
   color:#03084b;
+  line-height: 1.75em;
 }
+
+p2{
+  font-family:'Helvetica Neue', sans-serif;
+  color:#fcf0e5;
+  line-height: 1.75em;
+  font-weight: 200;
+}
+
 
 li{
    list-style-type: none; text-align: center;
@@ -35,24 +48,25 @@ li{
  a:link{
   margin:20px;
   text-decoration:none;
-  text-transform:uppercase;
-  font-family:"Helvetica Neue Bold", sans-serif;
-  font-weight: 900;
-  color:#7d130c;
+  text-transform:none;
+  letter-spacing: .09em;
+  font-family:"Helvetica Neue", sans-serif;
+  font-weight: 100;
+  color:#fcf0e5;
 }
 
 a:visited{
-  color:#7d130c;
+  color:#fcf0e5;
 }
 
 a:hover{
-  color:#7d130c;
+  color:#03084b;
   border-bottom:3px solid #fcf0e5;
   padding:0 0 2px;
 }
 
 a:active{
-  color:#7d130c;
+  color:#fcf0e5;
 }
 
 #wrap{
@@ -65,12 +79,16 @@ a:active{
 #about > div {
   max-width:1200px;
   margin:  0 auto;
+  padding: 40px;
 }
+
 #about div div {
   float:left;
-  padding:1em;
+  padding: 1em;
+
   width:50%;
 }
+
 #about img {
   float:left;
   padding:1em;
@@ -86,16 +104,36 @@ a:active{
   font-size: 0;
 }
 
-#work{
-  width: 60%;
-  display: block;
-  margin:  0 auto; 
+#work > div {
+  background-color:#03084b;
+  max-width:1200px;
+  margin:  0 auto;
+}
+
+#work div div {
+  float:right;
+  padding:1em;
+  width:50%;
+}
+
+#work img {
+  float:left;
+  padding:1em;
+  width:40%;
+}
+
+#book{
+  float:left;
+  padding:1em;
+  margin: 0 auto;
+  width:50%;
 }
 
 #contact{
-  width: 60%;
+  width: 100%;
   display: block;
   margin:  0 auto;
+  padding: 4em;
 }
 
 .container{
@@ -103,17 +141,20 @@ a:active{
 }
 
 #icons{
-  width:auto;
+  background-color:#7d130c;
+  display:inline;
 }
 
-.socialclearfix{
-    list-style-type: none; text-align: center;
-}
+
 
 #logo{              
-  width: 300px;
+  width: 350px;
   display: block;
   margin:  0 auto;
+}
+
+#book{
+  float:left;
 }
 
 #portrait{
@@ -123,11 +164,6 @@ a:active{
 @media screen and (max-width: 800px){
   .wrap{
       max-width:90%;
-}
-  
-.foot{
-      width:1000px;
-      margin: 0px auto 20px;
 }
 
 }
