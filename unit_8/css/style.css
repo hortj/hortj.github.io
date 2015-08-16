@@ -8,6 +8,7 @@ body{
 
 nav{
   background-color:#7d130c;
+  color:#fcf0e5;
   padding:20px;
   font-size: 1em;
   font-weight: 700;
@@ -60,7 +61,7 @@ a:visited{
 }
 
 a:hover{
-  color:#03084b;
+  color:#fcf0e5;
   border-bottom:3px solid #fcf0e5;
   padding:0 0 2px;
 }
