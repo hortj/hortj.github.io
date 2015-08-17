@@ -86,7 +86,6 @@ a:active{
 #about div div {
   float:left;
   padding: 1em;
-
   width:50%;
 }
 
@@ -168,11 +167,6 @@ a:active{
       max-width:100%;
 }
 
-#portrait{
-  width:25%;
-  float:none;
-}
-
 #about div div{
     float:none;
     width:100%;
@@ -182,7 +176,14 @@ a:active{
 #about img{
   float:none;
   padding:1em;
-  width:75%;
+  width:100%;
+}
+
+
+#work div {
+  float:none;
+  width:100%;
+
 }
 
 #work div div {
@@ -194,7 +195,7 @@ a:active{
 #work img {
   float:none;
   padding:1em;
-  width:50%;
+  width:;
 }
 
 }
