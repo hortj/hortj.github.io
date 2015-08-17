@@ -23,7 +23,7 @@ div{
 }
 
 h1{
-  font-family:'Trajan Pro', 'Palatino', serif, bold, uppercase;
+  font-family:'Trajan Pro', 'Palatino', uppercase, serif, bold;
   color:#7d130c;
   text-align: center;
 }
@@ -31,13 +31,13 @@ h1{
 p1{
   font-family:'Helvetica Neue', sans-serif;
   color:#03084b;
-  line-height: 1.75em;
+  line-height: 1.65em;
 }
 
 p2{
   font-family:'Helvetica Neue', sans-serif;
   color:#fcf0e5;
-  line-height: 1.75em;
+  line-height: 1.65em;
   font-weight: 200;
 }
 
@@ -176,7 +176,7 @@ a:active{
 #about div div{
     float:none;
     width:100%;
-    line-height:.75em;
+    line-height:.65em;
 }
 
 #about img{
@@ -188,7 +188,7 @@ a:active{
 #work div div {
   float:none;
   width:100%;
-  line-height:.75em;
+  line-height:.65em;
 }
 
 #work img {
