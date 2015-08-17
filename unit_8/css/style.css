@@ -164,7 +164,7 @@ a:active{
 
 @media screen and (max-width: 800px){
   .wrap{
-      max-width:90%;
+      max-width:100%;
 }
 
 }
