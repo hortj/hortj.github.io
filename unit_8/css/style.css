@@ -23,7 +23,7 @@ div{
 }
 
 h1{
-  font-family:'Trajan Pro', serif;
+  font-family:'Trajan Pro', 'Palatino', serif, bold, uppercase;
   color:#7d130c;
   text-align: center;
 }
@@ -163,8 +163,38 @@ a:active{
 }
 
 @media screen and (max-width: 800px){
-  .wrap{
+  
+.wrap{
       max-width:100%;
+}
+
+#portrait{
+  width:25%;
+  float:none;
+}
+
+#about div div{
+    float:none;
+    width:100%;
+    line-height:.75em;
+}
+
+#about img{
+  float:none;
+  padding:1em;
+  width:75%;
+}
+
+#work div div {
+  float:none;
+  width:100%;
+  line-height:.75em;
+}
+
+#work img {
+  float:none;
+  padding:1em;
+  width:50%;
 }
 
 }
