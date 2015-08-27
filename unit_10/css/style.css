@@ -21,13 +21,20 @@ nav{
   color:#fcf0e5;
 }
 
-section{
-
+#wrap{
+  background-color:#7d130c;
+  color:#fcf0e5;
+  padding:20px;
+  font-size: 1em;
+  font-weight: 700;
+  width:100%;
 }
 
-div{
 
+#menu{
+  display:none;
 }
+
 
 h1{
   font-family:'Trajan Pro', 'Palatino', uppercase, serif, bold;
@@ -68,7 +75,7 @@ a:visited{
 }
 
 a:hover{
-  color:#fcf0e5;
+  color:#03084b;
   border-bottom:3px solid #fcf0e5;
   padding:0 0 2px;
 }
@@ -77,12 +84,6 @@ a:active{
   color:#fcf0e5;
 }
 
-#wrap{
-  width:auto;
-  margin-left: auto;
-  margin-right:auto;
-  margin-top: auto;   
-}
 
 #about > div {
   max-width:1200px;
@@ -145,11 +146,8 @@ a:active{
 
 .container{
     color:#7d130c;
-}
-
-#icons{
-  background-color:#7d130c;
-  display:inline;
+    width: 100%;
+    background-color:yellow;
 }
 
 
@@ -168,9 +166,20 @@ a:active{
   float:right;
 }
 
-@media screen and (max-width: 800px){
-  
-.wrap{
+@media screen and (max-width: 800px) and (min-width: 451px){
+
+.icons{
+  width: 40%;
+  display:block;
+  float:left;
+}
+.icons img{       add a max width
+  width: 70%;
+  display:block;
+  margin:auto;
+}
+
+#wrap{
       max-width:100%;
 }
 
@@ -206,3 +215,55 @@ a:active{
 }
 
 }
+@media screen and (max-width: 500px) {
+  
+  label{
+    display: block;
+    text-decoration:none;
+    text-transform:none;
+    letter-spacing: .09em;
+    font-family:"Helvetica Neue", sans-serif;
+    font-weight: 100;
+    color:#fcf0e5;
+    background-color:#7d130c;
+    padding:15px;
+    font-size: 1em;
+  
+  }
+  }
+  
+  #wrap{
+    display:none;
+  }
+  #menu:checked + #wrap{
+    display:block;
+
+  }
+  
+  nav a:link{
+    display:block;
+  }
+
+a:link{
+  margin:20px;
+  text-decoration:none;
+  text-transform:none;
+  letter-spacing: .09em;
+  font-family:"Helvetica Neue", sans-serif;
+  font-weight: 100;
+  color:#fcf0e5;
+}
+
+
+
+a:hover{
+  color:#03084b;
+  font-weight: 600;
+  border-bottom: none;
+  
+}
+
+
+}
+
+
