@@ -216,7 +216,7 @@ a:active{
     text-transform:none;
     letter-spacing: .09em;
     font-family:"Helvetica Neue", sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     color:#fcf0e5;
     background-color:#7d130c;
     padding:15px;
@@ -243,7 +243,7 @@ a:link{
   text-transform:none;
   letter-spacing: .09em;
   font-family:"Helvetica Neue", sans-serif;
-  font-weight: 100;
+  font-weight: 300;
   color:#fcf0e5;
 }
 
