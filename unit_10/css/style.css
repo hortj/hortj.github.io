@@ -32,6 +32,12 @@ h1{
   text-align: center;
 }
 
+a:hover{
+  color:#fcf0e5;
+  border-bottom:3px solid #fcf0e5;
+  padding:0 0 2px;
+}
+
 p1{
   font-family:'Helvetica Neue', sans-serif;
   color:#03084b;
@@ -224,16 +230,22 @@ a:active{
   
   }
   }
-  
-  #wrap{
+
+
+#wrap{
     display:none;
   }
-  #menu:checked + #wrap{
+
+#menu:checked + #wrap{
     display:block;
 
   }
-  
-  nav a:link{
+
+#work img {
+  width:0%;
+ }
+
+nav a:link{
     display:block;
   }
 
@@ -250,12 +262,12 @@ a:link{
 
 
 a:hover{
-  color:#03084b;
+  color:#fcf0e5x;
   font-weight: 600;
   border-bottom: none;
   
 }
-
+ 
 
 }
 }
