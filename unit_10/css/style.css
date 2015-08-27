@@ -21,17 +21,7 @@ nav{
   color:#fcf0e5;
 }
 
-#wrap{
-  background-color:#7d130c;
-  color:#fcf0e5;
-  padding:20px;
-  font-size: 1em;
-  font-weight: 700;
-  width:100%;
-}
-
-
-#menu{
+label{
   display:none;
 }
 
@@ -75,7 +65,7 @@ a:visited{
 }
 
 a:hover{
-  color:#03084b;
+  color:#fcf0e5;
   border-bottom:3px solid #fcf0e5;
   padding:0 0 2px;
 }
@@ -84,6 +74,19 @@ a:active{
   color:#fcf0e5;
 }
 
+#wrap{
+  background-color:#7d130c;
+  color:#fcf0e5;
+  padding:20px;
+  font-size: 1em;
+  font-weight: 700;
+  width: auto;
+}
+
+
+#menu{
+  display:none;
+}
 
 #about > div {
   max-width:1200px;
@@ -146,8 +149,11 @@ a:active{
 
 .container{
     color:#7d130c;
-    width: 100%;
-    background-color:yellow;
+}
+
+#icons{
+  background-color:#7d130c;
+  display:inline;
 }
 
 
@@ -166,20 +172,9 @@ a:active{
   float:right;
 }
 
-@media screen and (max-width: 800px) and (min-width: 451px){
-
-.icons{
-  width: 40%;
-  display:block;
-  float:left;
-}
-.icons img{       add a max width
-  width: 70%;
-  display:block;
-  margin:auto;
-}
-
-#wrap{
+@media screen and  (max-width: 800px){
+  
+.wrap{
       max-width:100%;
 }
 
@@ -213,9 +208,7 @@ a:active{
   padding:1em;
   width:;
 }
-
-}
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 799px) {
   
   label{
     display: block;
@@ -265,5 +258,4 @@ a:hover{
 
 
 }
-
-
+}
